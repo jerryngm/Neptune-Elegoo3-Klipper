@@ -1,4 +1,4 @@
-# Neptune-Elegoo3-Klipper (WIP)
+# Klipper Config File for Elegoo Neptune 3 (WIP)
 Base Klipper Config file for Klipper. Use at your own risk!!  
 📄 **Todo:**  
  ✔️ X Y Z E Steppers config  
