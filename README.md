@@ -3,7 +3,7 @@ Base Klipper Config file for Klipper. Use at your own risk!! Please risk the com
 📄 **Todo:**  
  ✔️ X Y Z E Steppers config  
  ✔️ Heaters and Fans  
- ⭕ (WIP) ABL using Z- (ZNP Glevel board - Strain Gauge Sensor)
+ ⭕ (WIP) ABL using Z- (ZNP Glevel board - Strain Gauge Sensor)  
  ⭕ Filament sensor  
  ⭕ Klipper's Pressure Adance calibrate  
  ⭕ Klipper's Input Sharper  
