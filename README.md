@@ -1,5 +1,5 @@
 # Klipper Config File for Elegoo Neptune 3 (WIP)
-Base Klipper Config file for Klipper. **Use at your own risk!!** Please read the comments in the file, you will need to calibrate your hotend heater PID and E-steps 
+Base Klipper Config file for Klipper. **Use at your own risk!!** Please read the comments in the file, you will need to calibrate your hotend heater PID and E-steps   
 📄 **Todo:**  
  ✔️ X Y Z E Steppers config  
  ✔️ Heaters and Fans  
