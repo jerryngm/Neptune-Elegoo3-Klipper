@@ -7,3 +7,10 @@ Base Klipper Config file for Klipper. Use at your own risk!! Please risk the com
  ⭕ Filament sensor  
  ⭕ Klipper's Pressure Adance calibrate  
  ⭕ Klipper's Input Sharper  
+
+**👨‍🏫 Building Klipper Firmware**  
+ Use the following config:  
+![enter image description here](https://github.com/jerryngm/Neptune-Elegoo3-Klipper/raw/main/Klipper-Build-Settings.jpg)
+ 
+ More instructions to come...
+
