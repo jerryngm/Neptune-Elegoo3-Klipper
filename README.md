@@ -3,7 +3,7 @@ Base Klipper Config file for Klipper. **Use at your own risk!!** Please read the
 📄 **Todo:**  
  ✔️ X Y Z E Steppers config  
  ✔️ Heaters and Fans  
- ⭕ (WIP) ABL using Z- (ZNP Glevel board - Strain Gauge Sensor)  
+ ⭕ (WIP) ABL using Z- (ZNP Glevel board - Strain Gauge Sensor) - 8bit AVR (STM8S003F3P6) + HX711 (Load cell amplifier), this board send out z-end digital signal at predetermined weight, triggered by probe contact
  ⭕ (WIP) Filament sensor  
  ⭕ (WIP) Klipper's Pressure Adance calibrate  
  ⭕ (WIP) Klipper's Input Sharper  
