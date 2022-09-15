@@ -15,5 +15,7 @@ Base Klipper Config file for Klipper. **Use at your own risk!!** Please read the
 Once compiled, copy klipper.bin to an SD card (root folder) then rename it to ZNP_ROBIN_NANO.bin, insert it to your Neptune then switch on.  
 You can revert back to original firmware by placing the original firmware bin file to the SD card
  
- More instructions to come...
+ **🔧 Calibration**  
+ You will need to run your own PID calibration for the extruder heater, following the instructions here: https://www.klipper3d.org/Config_checks.html#calibrate-pid-settings  
+ Also extruder rotation_distance (I.e E-SSteps): https://www.klipper3d.org/Rotation_Distance.html#calibrating-rotation_distance-on-extruders
 
