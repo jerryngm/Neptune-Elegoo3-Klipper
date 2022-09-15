@@ -18,6 +18,6 @@ You can revert back to original firmware by placing the original firmware bin fi
 **I have also pre-complied the firmware, you can download "ZNP_ROBIN_NANO_Klipper.bin" then remove _Klipper from the name and copy this file to your SD Card**
  
  ## **🔧 Calibrations**  
- You will need to run your own PID calibration for the extruder heater, following the instructions here: https://www.klipper3d.org/Config_checks.html#calibrate-pid-settings  
- Also extruder rotation_distance (I.e E-SSteps): https://www.klipper3d.org/Rotation_Distance.html#calibrating-rotation_distance-on-extruders
+ You will need to run your own PID calibration for the extruder heater, following the instructions here: https://www.klipper3d.org/Config_checks.html#calibrate-pid-settings or enter PID_CALIBRATE HEATER=extruder TARGET=170 into the console  
+ Also extruder rotation_distance (I.e E-Steps): https://www.klipper3d.org/Rotation_Distance.html#calibrating-rotation_distance-on-extruders
 
