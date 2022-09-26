@@ -22,4 +22,7 @@ You can revert back to original firmware by placing the original firmware bin fi
  ## **🔧 Calibrations**  
  You will need to run your own PID calibration for the extruder heater, following the instructions here: https://www.klipper3d.org/Config_checks.html#calibrate-pid-settings or enter PID_CALIBRATE HEATER=extruder TARGET=170 into the console  
  Also extruder rotation_distance (I.e E-Steps): https://www.klipper3d.org/Rotation_Distance.html#calibrating-rotation_distance-on-extruders
+ 
+ ## **🧭 Input Sharper - ADXL345 Mount**
+ 
 
