@@ -28,5 +28,7 @@ You can revert back to original firmware by placing the original firmware bin fi
  - [Y Axis - Mount to Bed](https://github.com/jerryngm/Neptune-Elegoo3-Klipper/blob/main/Neptune3-ADXL345-BED.stl)
  - -[Clamp to hold board in place for Bed mount, sandwich the board in the middle](https://github.com/jerryngm/Neptune-Elegoo3-Klipper/blob/main/Neptune3-ADXL345-BED-Clamp.stl)
  - [Fusion 360 source file, it's a mess tho but I included it here if you like to make any changes](https://github.com/jerryngm/Neptune-Elegoo3-Klipper/blob/main/Neptune%203%20-%20ADXL345%20-%20Mount%20v1.f3d)
+
+Reuse screws from the screen case
  
 
