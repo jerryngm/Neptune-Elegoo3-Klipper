@@ -27,15 +27,17 @@ Base Klipper Config file for Klipper (based on the original code from [jerryngm]
  
  ## **🔧 Installation**  
 
- 1) First, compile and install the Klipper firmware according to the configuration above.
+ 1) First, compile and install the Klipper firmware according to the configuration [above](https://github.com/bsas/Neptune-Elegoo3-Klipper#-building-klipper-firmware) and then connect the printer to a Klipper machine via USB. You can completely remove the screen since it is useless with Klipper.
  
- 2) My configuration file uses the official Z endstop sensor (not the probe). I notice that using the probe forced the printer to bump the nozzle with an unconfortable (at least to me) force into the bed. But, the official Elegoo sensor is very high, so, you need to calibrate the Z-Offset. Home the printer, calibrate the new Z-Offset using a paper (similar to manual bed leveling) and then save it as a *position_endstop*.
+ 2) My configuration file uses the official Z endstop sensor (not the probe). I notice that using the probe forced the printer to bump the nozzle with an uncomfortable force into the bed. The original configuration mitigate that changing the "homing_speed" and "second_homing_speed" to very low numbers but that made the printer homing and bed mesh calibration unbearably slow. The official Elegoo sensor is very high, so, you need to calibrate the Z-Offset. Home the printer, calibrate the new Z-Offset throw the UI using a paper (similar to manual bed leveling) and then save it as a *position_endstop*.
  
- 3) Calibrate the probe offset, following the instructions here: https://www.klipper3d.org/Bed_Level.html
+ 3) Calibrate the probe offset (PROBE_CALIBRATE), following the instructions here: https://www.klipper3d.org/Bed_Level.html
  
  4) Do a PID calibration for the extruder heater and the bed, following the instructions here: https://www.klipper3d.org/Config_checks.html#calibrate-pid-settings
  
  5) Calibrate the extruder rotation_distance (I.e E-Steps): https://www.klipper3d.org/Rotation_Distance.html#calibrating-rotation_distance-on-extruders
+ 
+ 6) Run a heightmap calibration. If something goes wrong, maybe you need to align your X gantry. Worse case, you can increase the "horizontal_move_z" under "bed_mesh" if the probe keeps bumping on the bed during calibration. 
 
  ## **🔧 Advanced tuning** 
  
