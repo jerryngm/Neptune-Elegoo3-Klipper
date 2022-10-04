@@ -3,7 +3,7 @@
 Base Klipper Config file for Klipper (based on the original code from [jerryngm](https://github.com/jerryngm/Neptune-Elegoo3-Klipper)). **Use at your own risk!!** Please read the comments in the file, you will need to calibrate multiple things specially the heater PID for the hotend and bed.  
 
 ## 📄 **Done:**  
- ✔️ X Y Z E Steppers and Endstops 
+ ✔️ X Y Z E Steppers and Endstops  
  ✔️ Heaters and Fans  
  ✔️ Filament sensor  
  ✔️ Klipper's Pressure Advance  
