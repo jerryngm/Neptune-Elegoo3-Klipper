@@ -19,7 +19,7 @@ Base printer config file for **Klipper** (based on the original code from [jerry
  - Bootloader offset (**32KiB bootloader**)
  - Communication interface (**Serial (on USART1 PA10/PA9)**)
  
-![Klipper firmware configuration](https://github.com/jerryngm/Neptune-Elegoo3-Klipper/raw/main/Klipper-Build-Settings.jpg)  
+![Klipper firmware configuration](https://github.com/bsas/Neptune-Elegoo3-Klipper/raw/main/Klipper-Build-Settings.jpg)  
 
  Once compiled, copy **klipper.bin** to an SD card (root folder) then rename it to **ZNP_ROBIN_NANO.bin**, insert it to your Neptune then switch on. You can remove the stock screen, it will become useless since it doesn't work with Klipper.
  
@@ -41,6 +41,13 @@ Base printer config file for **Klipper** (based on the original code from [jerry
 
  ## **🔧 Advanced tuning** 
  
- For **Input Shaper** you can use an **ADXL345** accelerometer. It is quite simple to attach it to the bed or the hotend and run the resonance tuning. For more details read the [official documentation](https://www.klipper3d.org/Resonance_Compensation.html). I will soon upload the pictures of how I attached my accelerometer.
+ For **Input Shaper** you can use an **ADXL345** accelerometer. It is quite simple to attach it to the bed or the hotend and run the resonance tuning. For more details read the [official documentation](https://www.klipper3d.org/Resonance_Compensation.html). 
+ 
+ To attach the ADXL345, I simply used a set of M4 nylon screw/nut/washer (used nylon to avoid any kind of short) and I lock it into one of the PEI sheet holes on the handle and on one right screw of the hotend cover like the following pictures:
+ 
+ ![ADXL345 screw/nut/washer](https://github.com/bsas/Neptune-Elegoo3-Klipper/raw/main/ADXL345_Nylon.jpg)
+ ![ADXL345 into the bed](https://github.com/bsas/Neptune-Elegoo3-Klipper/raw/main/ADXL345_Bed.jpg)
+ ![ADXL345 into the hotend](https://github.com/bsas/Neptune-Elegoo3-Klipper/raw/main/ADXL345_Head.jpg)
+
  
  For **Pressure Advance** just follow the [official documentation](https://www.klipper3d.org/Pressure_Advance.html) and use the configuration for **long bowden extruders**.
