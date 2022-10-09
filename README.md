@@ -31,17 +31,16 @@ Base printer config file for **Klipper** (based on the original code from [jerry
  
  2. My configuration file uses the stock Z endstop sensor (not the probe). I notice that using the probe forced the printer to bump the nozzle with an uncomfortable force into the bed. The original configuration mitigate that changing the **homing_speed** and **second_homing_speed** to very low numbers but that made the printer homing and bed mesh calibration unbearably slow. The stock Elegoo sensor is very high, so, you need to calibrate the **Z-Offset**. Home the printer, calibrate the new Z-Offset using the UI and a paper (similar to manual bed leveling) and then save it as a **position_endstop**.
  
-	- If you decide to use the probe as a virtual endstop instead of the light sensor, you need to comment the following lines:
-```
+	- If you decide to use the probe as a virtual endstop instead of the light sensor, you need to comment the following lines and you need to uncomment the following lines:
+~~~
 #endstop_pin: !PC14
 #position_endstop = 0
-```
-	- And you need to uncomment the following lines:
-```
+~~~
+~~~
 endstop_pin: probe:z_virtual_endstop
 homing_speed: 0.5
 second_homing_speed: 0.1
-```
+~~~
  
  3. Calibrate the probe offset (**PROBE_CALIBRATE**), following the instructions here: https://www.klipper3d.org/Bed_Level.html
  
