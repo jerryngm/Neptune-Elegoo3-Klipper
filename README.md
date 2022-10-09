@@ -55,12 +55,13 @@ second_homing_speed: 0.1
  
  1. For **Input Shaper** you can use an **ADXL345** accelerometer. It is quite simple to attach it to the bed or the hotend and run the resonance tuning. For more details read the [official documentation](https://www.klipper3d.org/Resonance_Compensation.html). 
  
-	- To attach the ADXL345, I simply used a set of M4 nylon screw/nut/washer (used nylon to avoid any kind of short) and I lock it into one of the PEI sheet holes on the handle and on one right screw of the hotend cover like the following pictures:
+	- To attach the ADXL345, I simply used a set of M4 nylon screw/nut/washer (used nylon to avoid any kind of short) and I lock it into one of the PEI sheet holes on the handle and on one right screw of the hotend cover like the following pictures.
+	
+	- For each position just run the **SHAPER_CALIBRATE AXIS=X/Y**.
  
  ![ADXL345 screw/nut/washer](https://github.com/bsas/Neptune-Elegoo3-Klipper/raw/main/ADXL345_Nylon.jpg)
  ![ADXL345 into the bed](https://github.com/bsas/Neptune-Elegoo3-Klipper/raw/main/ADXL345_Bed.jpg)
  ![ADXL345 into the hotend](https://github.com/bsas/Neptune-Elegoo3-Klipper/raw/main/ADXL345_Head.jpg)
  
-	- For each position just run the **SHAPER_CALIBRATE AXIS=X/Y**.
  
  2. For **Pressure Advance** just follow the [official documentation](https://www.klipper3d.org/Pressure_Advance.html) and use the configuration for **long bowden extruders**.
